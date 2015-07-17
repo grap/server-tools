@@ -22,26 +22,11 @@
 
 {
     'name': 'Parent Dependencies of Modules',
-    'version': '0.1',
+    'version': '1.0',
     'summary': "allows to see the list of installed modules dependencies of"
     " a given module, at the full depth of the dependency tree",
     'category': 'Tools',
-    'description': """
-allows to see the list of installed modules dependencies of a given module,
- at the full depth of the dependency tree
-===========================================================================
-=========================================
-
-Functionality:
---------------
-    * This module allows to see the list of installed modules dependencies of a
-    given module, at the full depth of the dependency tree.
-
-Copyright, Authors and Licence:
--------------------------------
-    * Copyright: 2014, GRAP: Groupement Régional Alimentaire de Proximité;
-    * Author: Sylvain LE GAL (https://twitter.com/legalsylvain);""",
-    'author': "GRAP,Odoo Community Association (OCA)",
+    'author': 'GRAP,Odoo Community Association (OCA)',
     'website': 'http://www.grap.coop',
     'license': 'AGPL-3',
     'depends': [
