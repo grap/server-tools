@@ -7,7 +7,12 @@
                 <sheet>
                     <notebook>
                         <page string="Basic Information">
-                            <group>
+                            <group col="2">
+                                <group string="Name">
+                                    <field name="name" />
+                                    <field name="storage" />
+                                    <field name="extension" />
+                                </group>
                                 <group
                                     string="Owner"
                                     invisible="show_technical == False"
@@ -18,13 +23,6 @@
                                     <field name="owner_ref_id" />
                                     <field name="sequence" />
                                 </group>
-                                <group string="Name">
-                                    <field name="name" />
-                                    <field name="storage" />
-                                    <field name="extension" />
-                                </group>
-                            </group>
-                            <group>
                                 <group string="Options">
                                     <field
                                         name="url"
@@ -57,6 +55,7 @@
                                         filename="filename"
                                     />
                                 </group>
+
                             </group>
                             <group string="Comments">
                                 <field name="comments" nolabel="1" />
